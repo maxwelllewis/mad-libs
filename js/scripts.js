@@ -14,6 +14,7 @@ $(document).ready(function() {
       // var element = $("input#UPPER").val();
       debugger;
       var element = document.getElementById("UPPER").value;
+      element = element.toUpperCase();
       alert(element);
       event.preventDefault();
     });
