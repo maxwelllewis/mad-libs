@@ -7,5 +7,9 @@ $(document).ready(function() {
       $("#story").show();
 
       event.preventDefault();
+
+      $("input#UPPER").val();
+      var element = document.getElementById(UPPER);
+      alert(element);
     });
 });
