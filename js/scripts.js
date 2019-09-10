@@ -8,8 +8,13 @@ $(document).ready(function() {
 
       event.preventDefault();
 
-      $("input#UPPER").val();
-      var element = document.getElementById(UPPER);
+
+    })
+    $("#upperForm").submit(function(event) {
+      // var element = $("input#UPPER").val();
+      debugger;
+      var element = document.getElementById("UPPER").value;
       alert(element);
+      event.preventDefault();
     });
 });
