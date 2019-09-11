@@ -25,3 +25,11 @@
   font-size: 4px;
   border: solid;
 }
+
+#schedule {
+  display: none;
+  font-family: fantasy;
+  color: purple;
+  border: dotted;
+  background-color: lightblue;
+}

@@ -32,9 +32,24 @@ $(document).ready(function() {
       alert(element);
 
       event.preventDefault();
+    });
+
+    $('#timeform').submit(function(event) {
+      var realnameInput = $('input#realname').val();
+      var realdateInput = $('input#realdate').val();
+      var zoneInput = $('input#zone').val();
+
+      $('.realname').text(realnameInput);
+      $('.realdate').text(realdateInput);
+      $('.zone').text(zoneInput);
+
+      $('#schedule').show();
+
+      alert("booking successful!");
+
+      event.preventDefault();
 
 
     });
-
 
 });
