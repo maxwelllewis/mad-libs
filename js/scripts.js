@@ -9,7 +9,7 @@ $(document).ready(function() {
       event.preventDefault();
 
 
-    })
+    });
     $("#upperForm").submit(function(event) {
       // var element = $("input#UPPER").val();
       debugger;
@@ -18,4 +18,8 @@ $(document).ready(function() {
       alert(element);
       event.preventDefault();
     });
+
+    
+
+
 });
