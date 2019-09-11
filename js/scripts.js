@@ -19,7 +19,22 @@ $(document).ready(function() {
       event.preventDefault();
     });
 
-    
+  $('#mailform').submit(function() {
+    var mailnameInput = $('input#mailname').val();
+    var mailaddressInput = $('input#mailaddress').val();
+
+      $('.mailname').text(mailnameInput);
+      $('.mailaddress').text(mailaddressInput);
+
+      $('#receipt').show();
+
+      var element = document.getElementById('mailaddress').value;
+      alert(element);
+
+      event.preventDefault();
+
+
+    });
 
 
 });

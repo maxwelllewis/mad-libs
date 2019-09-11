@@ -17,3 +17,11 @@
   display: inline-block;
   font-size: 16px;
 }
+
+#receipt {
+  display: none;
+  font-style: monospace;
+  font-family: monospace;
+  font-size: 4px;
+  border: solid;
+}
